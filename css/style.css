@@ -31,9 +31,10 @@ nav {
 }
 .nav__links-list {
     display: flex;
+    justify-content: space-between;
+    width: 30%;
 }
 .nav__links-list li + li {
-    margin-left: 72px;
 }
 .nav__link {
     font-family: Lato;
@@ -120,4 +121,109 @@ nav {
     border: 1px solid #01996D;
     box-sizing: border-box;
     border-radius: 4px;
+}
+
+.steps {
+}
+.steps__content {
+    padding: 0 275px;
+    padding-top: 170px;
+    padding-bottom: 50px;
+}
+.steps__top {
+}
+.steps__subtitle {
+    font-family: Lato;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 157%;
+    /* identical to box height, or 38px */
+    
+    
+    color: #424242;
+}
+.steps__text {
+    justify-content: space-between;
+    display: flex;
+    align-items: center;
+}
+.steps__title {
+    width: 45%;
+    font-family: Georgia;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 50px;
+    line-height: 157%;
+    /* or 79px */
+    
+    
+    color: #01996D;
+}
+.steps__article {
+    width: 45%;
+    font-family: Lato;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 150%;
+    /* or 30px */
+    
+    
+    color: #424242;
+    
+}
+.steps__parent {
+    width: 100%;
+    display: flex;
+    margin-top: 100px;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.steps__child {
+    width: 30%;
+
+}
+.steps__child-title {
+    position: relative;
+    font-family: Georgia;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 30px;
+    line-height: 150%;
+    /* identical to box height, or 45px */
+    
+    text-align: center;
+    
+    color: #000000;
+}
+.steps__child-title span {
+    right: 50%;
+    bottom: auto;
+    position: absolute;
+    font-family: Georgia;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 150px;
+    /* identical to box height, or 225px */
+    
+    text-align: center;
+    
+    color: rgba(1, 153, 109, 0.2);
+}
+.steps__chiled-text {
+    padding-top: 55px;
+    font-family: Lato;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 150%;
+    /* or 30px */
+    
+    
+    color: #424242;
+    
+}
+.steps__child-img {
+    padding-top: 60px;
 }
