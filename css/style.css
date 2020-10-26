@@ -1,0 +1,123 @@
+@font-face {
+    font-family: 'Georgia Regular';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Georgia Regular'), url('fonts/georgia.woff') format('woff');
+    }
+    
+
+@font-face {
+    font-family: 'Georgia Bold';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Georgia Bold'), url('fonts/georgiab.woff') format('woff');
+    }
+
+a {
+    text-decoration: none;
+}
+.hero {
+    height: 100vh;
+}
+nav {
+    height: 85px;
+    background: #ffffff;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.nav__logo {
+    margin-left: 275px;
+}
+.nav__links-list {
+    display: flex;
+}
+.nav__links-list li + li {
+    margin-left: 72px;
+}
+.nav__link {
+    font-family: Lato;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+    color: #292929;
+}
+.nav__buttons {
+    margin-right: 275px;
+}
+.nav__sign-in {
+    font-family: Lato;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 24px;
+    /* identical to box height */
+    
+    
+    color: #000000;
+    
+}
+.nav__start-trial {
+    margin-left: 35px;
+    font-family: Lato;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 25px;
+    /* identical to box height, or 125% */
+    
+    text-align: center;
+    
+    color: #FFFFFF;
+    padding: 13px 50px;
+    background: #01996D;
+    border: 1px solid #01996D;
+    box-sizing: border-box;
+    border-radius: 4px;
+}
+.hero__content {
+    background: url(../assets/bg.png) no-repeat center;
+    background-size: cover;
+    height: 91%;
+}
+.hero__text {
+    width: 440px;
+    padding-left: 275px;
+    padding-top: 175px;
+}
+.hero__title {
+    font-family: Georgia;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 65px;
+    line-height: 74px;
+    
+    color: #01996D;
+}
+.hero__subtitle {
+    font-family: Lato;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 31px;
+    
+    color: #484848;
+}
+.hero__button {
+    font-family: Lato;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 25px;
+    /* identical to box height, or 125% */
+    
+    text-align: center;
+    color: #FFFFFF;
+    margin-top: 56px;
+    padding: 20px 50px;
+    background: #01996D;
+    border: 1px solid #01996D;
+    box-sizing: border-box;
+    border-radius: 4px;
+}
